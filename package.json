@@ -1,0 +1,32 @@
+{
+  "name": "razorden",
+  "author": "razor",
+  "version": "1.1.1",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord-api-types": "^0.30.0",
+    "discord-backup": "^3.0.1",
+    "discord-music-player": "^8.3.1",
+    "discord.js": "^13.6.0",
+    "discordjs-button-pagination": "^3.0.1",
+    "dotenv": "^16.0.0",
+    "genius-lyrics": "^4.3.6",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.2.9",
+    "play-dl": "^1.9.3",
+    "randomstring": "^1.2.2",
+    "spotify-url-info": "^3.0.3",
+    "yt-search": "^2.10.3"
+  },
+  "scripts": {
+    "filenotdigitallysigned": "cmd.exe /c powershell -command Set-ExecutionPolicy RemoteSigned"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
